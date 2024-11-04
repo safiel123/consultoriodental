@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif
+}
+ul li {
+    position: relative;
+    float: left;
+    
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+    display: block;
+    font-family:600 ;
+    background-color: rgba(252, 252, 252, 0.294);
+}
+.navbar :hover{
+    color:rgba(0, 0, 0, 0.98)
+    
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;}
+    
+.servi{
+    padding: 100px;
+    background:
+        url(/pagina.html/image/tec.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+.servi-content {
+    text-align: justify;
+}
+.servi-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #ffffffe4;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+}
+.servi-content p{
+    font-size: 16px;
+    color: rgb(151, 155, 158);
+    text-transform: lowercase;
+}
+.servi-group{
+    display: flex;
+    align-items: baseline;
+    
+
+}
+.servi-1{
+    padding: 0 100px 10px 0px;
+    margin: 0px;
+    
+}
+.servi-1 img{
+    width: 200px;
+    border-radius: 20px;
+}
+.servi-1 h3{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgb(249, 249, 249);
+}
+@media(max-width:991px){
+    .menu{padding: 30px;}
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(60, 57, 57);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu :checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .header-content p{
+        padding: 0;
+    }
+    .osmar{
+        padding: 30px;
+    }
+    .osmar-content h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .osmar-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .osmar-img{
+        display: none;
+    }
+    .servi{
+        padding: 30px;
+    }
+    .servi-content p{
+        padding: 0;
+    }
+    .servi-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .servi-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3{
+        display: none;
+    }
+    .blog{
+    padding: 30px;
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}

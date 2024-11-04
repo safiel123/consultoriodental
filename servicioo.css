@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif; 
+}
+.osmar{
+    padding: 25px 100px;
+
+}
+.osmar {
+    padding: 50px 70px 70px 70px;
+    background:linear-gradient(
+        rgba(114, 148, 233, 0.487),
+        rgba(88, 92, 198, 0.982)),
+        url(/pagina.html/image/casosclinicos.png/images.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .navbar{
+    
+        position: absolute;
+        top:0%;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .reservas{
+        color: #250404e4;
+        font-size: 25px;
+        padding-left: 20px;
+        text-transform: uppercase;
+    }
+    
+    ul li {
+        position: relative;
+        float: left;
+    }
+    
+    ul li a {
+        font-size: 20px;
+        padding: 20px;
+        color: #00010fe8;
+        display: block;
+        font-family:600 ;
+    }
+    .navbar :hover{
+        color:rgba(255, 255, 255, 0.98)
+        
+    }
+
+.osmar-content h2{
+    text-align: center;
+    font-size: 42px;
+    line-height: 70px;
+    color: rgb(1, 0, 26);
+    text-transform: uppercase;
+    padding: 30px 250px 30px 250px;
+    
+}
+.osmar-group h3 {
+    font-size: 18px;
+
+    color: rgb(0, 10, 32);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.osmar-group{
+    display: flex;
+    margin-bottom: 50px;
+}
+.osmar-1{
+    margin: 10px 25px;
+    padding: 25px 10px;
+    border-color: rgb(205, 209, 255);   
+    background-color: rgb(194, 199, 255);
+}
+
+.osmar-group p{
+    margin-bottom: 30px;
+
+
+}
+.osmar-group img{
+    width:200px ;
+
+}
+

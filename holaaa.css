@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image:linear-gradient(
+        rgb(0 0 0),
+        rgba(0, 0, 0, 0)),
+        url(image/dental.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    }
+
+.menu{
+    
+    position: absolute;
+    top:0%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reservas{
+    color: #ffffffe4;
+    font-size: 25px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #d2d3dee8;
+    display: block;
+    font-family:600 ;
+}
+.menu .navbar ul li a:hover{
+    color:rgba(0, 19, 185, 0.98)
+    
+}
+
+#menu{
+    display: none;
+}
+
+.menu-i{
+    width: 26px;
+}
+
+.menu label {
+    cursor: pointer;
+    display:none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 65px;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-top :10px;
+    margin-bottom: 20px;
+
+}
+.header-content p {
+    font-size: 19px;
+    color:rgb(223, 223, 236);
+    padding-left: 0 230px;
+    margin: 20px 30px 50px 30px;
+
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(1, 1, 19);
+    color: rgb(225, 226, 234);
+    text-transform:uppercase ;
+
+}
+.btn-1 :hover{
+    background-color: #ffffffe8;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(1, 1, 19);
+    color: rgb(225, 226, 234);
+    text-transform:uppercase ;
+
+}
+.btn-1 :hover{
+    background-color: #ffffffe8;
+}
+.osmar{
+    padding: 50px 0;
+    background-color: rgb(217, 219, 243);
+    position: relative;
+}
+
+.osmar-content{
+    align-items: center;
+    text-align: center;
+}
+.osmar-content h2{
+    font-size: 42px;
+    line-height: 70px;
+    color: rgb(55, 47, 47);
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+.osmar-group h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.txt-p{
+    font-size: 26px;
+    color: rgb(88, 80, 80);
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+.osmar-group{
+    display: flex;
+    margin-bottom: 25px;
+}
+.osmar-1{
+    margin: 0 25px;
+    padding: 25px 0;
+}
+
+.osmar-group p{
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.osmar-1 img{
+    width:200px ;
+    align-items: center;
+}
+.osmar-img{
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.osmar{
+    color: rgb(48, 46, 46);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: rgb(7, 6, 6);
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    
+}
+p{
+    font-size:  25px;
+    color: rgb(15, 14, 14);
+    margin: 25px 0 45px 0;
+}
+.footer{
+    padding: 100px 0;
+    background-color: rgb(20, 17, 17);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    font-size: 18px;
+    color: rgb(221, 231, 231);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.link a{
+    font-size: 16px;
+    color: rgb(188, 195, 195);
+    display: block;
+    margin-bottom: 15px;
+    
+}
+.link{
+    margin: 10px;
+}
+@media(max-width:991px){
+    .menu{padding: 30px;}
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(60, 57, 57);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu :checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .header-content p{
+        padding: 0;
+    }
+    .osmar{
+        padding: 30px;
+    }
+    .osmar-content h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .osmar-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .osmar-img{
+        display: none;
+    }
+    .servi{
+        padding: 30px;
+    }
+    .servi-content p{
+        padding: 0;
+    }
+    .servi-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .servi-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3{
+        display: none;
+    }
+    .blog{
+    padding: 30px;
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+

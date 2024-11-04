@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif
+}
+ul li {
+    position: relative;
+    float: left;
+}
+
+ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffffe8;
+    display: block;
+    font-family:600 ;
+    background-color: rgba(252, 252, 252, 0.438);
+}
+.navbar :hover{
+    color:rgba(46, 46, 46, 0.98)
+    
+    
+}
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(251, 251, 251);
+
+}
+
+.general h2{
+    font-size: 25px;
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px;
+    align-items: center;
+    padding: auto;
+
+}
+.rec{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 100px;
+}
+.bocal{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.general{
+    display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 100px 25px;
+    background-color: rgb(188, 207, 255);
+}
+.general p {
+    color: rgb(0, 0, 0);
+}
+.general-2{
+    background-image:url(/pagina.html/image//lvad.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image:url(/pagina.html/image/camsep.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-4{
+    background-image:url(/pagina.html/image/maylip.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-5{
+    background-image:url(/pagina.html/image/hilod.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-6{
+    background-image:url(/pagina.html/image/enju.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-7{
+    background-image:url(/pagina.html/image/doc.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+@media(max-width:991px){
+    .menu{padding: 30px;}
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgb(60, 57, 57);
+        display: none;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu :checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+    }
+    .header-content{
+        padding: 100px 30px;
+    }
+    .header-content p{
+        padding: 0;
+    }
+    .osmar{
+        padding: 30px;
+    }
+    .osmar-content h2{
+        padding: 0;
+    }
+    .txt-p{
+        padding: 0;
+    }
+    .osmar-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .osmar-img{
+        display: none;
+    }
+    .servi{
+        padding: 30px;
+    }
+    .servi-content p{
+        padding: 0;
+    }
+    .servi-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .servi-1{
+        margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
+    }
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+    .general-2, .general-3{
+        display: none;
+    }
+    .blog{
+    padding: 30px;
+    }
+    .blog-content{
+        flex-direction: column;
+    }
+    .blog-1{
+        padding: 0;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+}
